@@ -8,6 +8,7 @@ type PermissionType =
   | 'remoteNotifications'
   | 'location'
   | 'camera'
+  | 'calendar'
   | 'contacts'
   | 'audioRecording'
   | 'systemBrightness'
@@ -51,5 +52,6 @@ export const LOCATION = 'location';
 export const REMOTE_NOTIFICATIONS = 'remoteNotifications';
 export const NOTIFICATIONS = REMOTE_NOTIFICATIONS;
 export const CONTACTS = 'contacts';
+export const CALENDAR = 'calendar';
 export const SYSTEM_BRIGHTNESS = 'systemBrightness';
 export const CAMERA_ROLL = 'cameraRoll';
